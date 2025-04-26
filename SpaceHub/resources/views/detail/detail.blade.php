@@ -76,9 +76,9 @@
                         <p class="text-gray-500">08.00 - 17.00</p>
                     </div>
 
-                    <div class="flex flex-col gap-y-5 mt-10 w-[350px]">
+                    <div class="flex flex-col gap-y-5 mt-10 w-full">
                         <div class="inline-flex gap-x-5">
-                            <div class="w-full h-full p-2 border border-gray-50 shadow-md rounded-xl bg-white">
+                            <div class="w-full h-full py-4 px-2 border border-gray-50 shadow-md rounded-xl bg-white">
                                 <div class="flex flex-col">
                                     <div class="inline-flex gap-x-2">
                                         <img src="{{asset('img/clock.png')}}" alt="">
@@ -87,31 +87,31 @@
                                 </div>
                                 <p class="px-1 text-gray-600">6 Meja</p>
                             </div>
-                            <div class="w-full h-full p-2 border border-gray-50 shadow-md rounded-xl bg-white">
+                            <div class="w-full h-full py-4 px-2 border border-gray-50 shadow-md rounded-xl bg-white">
                                 <div class="flex flex-col">
                                     <div class="inline-flex gap-x-2">
                                         <img src="{{asset('img/clock.png')}}" alt="">
-                                        <p class="font-semibold">Pilihan Meja</p>
+                                        <p class="font-semibold">Pilihan Ruangan</p>
                                     </div>
                                 </div>
                                 <p class="px-1 text-gray-600">6 Meja</p>
                             </div>
                         </div>
                         <div class="inline-flex gap-x-5">
-                            <div class="w-full h-full p-2 border border-gray-50 shadow-md rounded-xl bg-white">
+                            <div class="w-full h-full py-4 px-2 border border-gray-50 shadow-md rounded-xl bg-white">
                                 <div class="flex flex-col">
                                     <div class="inline-flex gap-x-2">
                                         <img src="{{asset('img/clock.png')}}" alt="">
-                                        <p class="font-semibold">Pilihan Meja</p>
+                                        <p class="font-semibold">Daftar Menu</p>
                                     </div>
                                 </div>
                                 <p class="px-1 text-gray-600">6 Meja</p>
                             </div>
-                            <div class="w-full h-full p-2 border border-gray-50 shadow-md rounded-xl bg-white">
+                            <div class="w-full h-full py-4 px-2 border border-gray-50 shadow-md rounded-xl bg-white">
                                 <div class="flex flex-col">
                                     <div class="inline-flex gap-x-2">
                                         <img src="{{asset('img/clock.png')}}" alt="">
-                                        <p class="font-semibold">Pilihan Meja</p>
+                                        <p class="font-semibold">Kontak WhatsApp</p>
                                     </div>
                                 </div>
                                 <p class="px-1 text-gray-600">6 Meja</p>
@@ -123,8 +123,12 @@
             </div>
         </section>
 
-        <div class="w-[500px] h-[500px] bg-blue-500 rounded-full absolute top-40 -right-95">
+        <div
+            class="w-[500px] h-[500px] bg-blue-500 rounded-full absolute top-40 -right-95">
+        </div>
 
+        <div
+            class="w-[100px] h-[100px] bg-green-500 rounded-full absolute top-140 -right-13">
         </div>
 
     </div>
