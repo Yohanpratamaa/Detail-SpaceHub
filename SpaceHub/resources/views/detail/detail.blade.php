@@ -41,6 +41,7 @@
 
         {{-- Hero --}}
         <section class="hero w-full h-full mt-[80px]" id="hero">
+
             <div class="inline-flex text-gray-500 ">
                 Home >> Katalog >> Detail
             </div>
@@ -121,6 +122,7 @@
 
                 </div>
             </div>
+
         </section>
 
         {{-- Circle Ungu --}}
@@ -133,161 +135,285 @@
             class="w-[100px] h-[100px] bg-green-500 rounded-full absolute top-140 -right-13">
         </div>
 
-        {{-- Deskripsi --}}
-        <section class=" mt-10 flex" id="deskripsi">
-            <div class="w-5/8 mr-[100px]">
-                <div class="text-3xl font-semibold">
-                    Deskripsi Lokasi
+        <div class="absolute top-400 -right-200 w-[1000px] h-[800px] -z-10 bg-violet-300 rounded-full blur-[500px]"></div>
+
+        <section class=" mt-10 flex flex-col" id="deskripsi">
+
+            <div class="flex">
+
+                <div class="w-5/8 mr-[100px] flex flex-col">
+
+                    {{-- Deskripsi --}}
+                    <div class="text-3xl font-semibold">
+                        Deskripsi Lokasi
+                    </div>
+                    <p class="mt-10">
+                        Terletak di Jalan Braga, vOffice menawarkan suasana kerja yang profesional dengan ruang modern yang nyaman. Cocok bagi pekerja yang membutuhkan kantor virtual dengan fasilitas lengkap. Ruangan ini memiliki desain minimalis yang membantu meningkatkan produktivitas.
+                    </p>
+
+                    {{-- Pilihan Ruangan --}}
+                    <section class=" mt-10 flex flex-col">
+
+                        <div class="inline-flex font-semibold text-3xl mb-10">
+                            Pilihan Ruangan
+                        </div>
+
+                        {{-- Ruangan --}}
+                        <div class="flex border border-gray-200 bg-white gap-x-10 rounded-xl p-2 shadow-lg">
+                            <img src="{{asset('img/contoh1.png')}}" alt="">
+                            <div class="flex flex-col">
+                                <h2 class="text-xl font-semibold">Melawai Room</h2>
+                                <div class="inline-flex gap-x-3 mt-2">
+                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Maks. 8 Orang
+                                    </div>
+                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Non Smoking
+                                    </div>
+                                </div>
+
+                                <h2 class="text-orange-500 mt-2 font-semibold">Mulai Dari</h2>
+                                <h2 class="font-semibold text-lg">Rp. 90.000 / 2 jam</h2>
+                            </div>
+                        </div>
+
+                        {{-- Ruangan --}}
+                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                            <img src="{{asset('img/contoh1.png')}}" alt="">
+                            <div class="flex flex-col">
+                                <h2 class="text-xl font-semibold">Melawai Room</h2>
+                                <div class="inline-flex gap-x-3 mt-2">
+                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Maks. 8 Orang
+                                    </div>
+                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Non Smoking
+                                    </div>
+                                </div>
+
+                                <h2 class="text-orange-500 mt-2 font-semibold">Mulai Dari</h2>
+                                <h2 class="font-semibold text-lg">Rp. 90.000 / 2 jam</h2>
+                            </div>
+                        </div>
+
+                        {{-- Ruangan --}}
+                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                            <img src="{{asset('img/contoh1.png')}}" alt="">
+                            <div class="flex flex-col">
+                                <h2 class="text-xl font-semibold">Melawai Room</h2>
+                                <div class="inline-flex gap-x-3 mt-2">
+                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Maks. 8 Orang
+                                    </div>
+                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Non Smoking
+                                    </div>
+                                </div>
+
+                                <h2 class="text-orange-500 mt-2 font-semibold">Mulai Dari</h2>
+                                <h2 class="font-semibold text-lg">Rp. 90.000 / 2 jam</h2>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    {{-- Pilihan Meja --}}
+                    <section class=" mt-10 flex flex-col">
+
+                        <div class="inline-flex font-semibold text-3xl mb-5">
+                            Pilihan Meja
+                        </div>
+
+                        {{-- Meja --}}
+                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                            <img src="{{asset('img/contoh1.png')}}" alt="">
+                            <div class="flex flex-col">
+                                <h2 class="text-xl font-semibold">Melawai Room</h2>
+                                <div class="inline-flex gap-x-3 mt-2">
+                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                        3 - 5 Orang
+                                    </div>
+                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Outdoor
+                                    </div>
+                                </div>
+
+                                <h2 class="text-orange-500 mt-2 font-semibold">Minimal Order</h2>
+                                <h2 class="font-semibold text-lg">Rp. 100.000 / 2 jam</h2>
+                            </div>
+                        </div>
+
+                        {{-- Meja --}}
+                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                            <img src="{{asset('img/contoh1.png')}}" alt="">
+                            <div class="flex flex-col">
+                                <h2 class="text-xl font-semibold">Melawai Room</h2>
+                                <div class="inline-flex gap-x-3 mt-2">
+                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                        3 - 5 Orang
+                                    </div>
+                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Outdoor
+                                    </div>
+                                </div>
+
+                                <h2 class="text-orange-500 mt-2 font-semibold">Minimal Order</h2>
+                                <h2 class="font-semibold text-lg">Rp. 100.000 / 2 jam</h2>
+                            </div>
+                        </div>
+
+                        {{-- Meja --}}
+                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                            <img src="{{asset('img/contoh1.png')}}" alt="">
+                            <div class="flex flex-col">
+                                <h2 class="text-xl font-semibold">Melawai Room</h2>
+                                <div class="inline-flex gap-x-3 mt-2">
+                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                        3 - 5 Orang
+                                    </div>
+                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                        Outdoor
+                                    </div>
+                                </div>
+
+                                <h2 class="text-orange-500 mt-2 font-semibold">Minimal Order</h2>
+                                <h2 class="font-semibold text-lg">Rp. 100.000 / 2 jam</h2>
+                            </div>
+                        </div>
+
+                    </section>
                 </div>
-                <p class="mt-10">
-                    Terletak di Jalan Braga, vOffice menawarkan suasana kerja yang profesional dengan ruang modern yang nyaman. Cocok bagi pekerja yang membutuhkan kantor virtual dengan fasilitas lengkap. Ruangan ini memiliki desain minimalis yang membantu meningkatkan produktivitas.
-                </p>
 
-                {{-- Pilihan Ruangan --}}
-                <section class=" mt-10 flex flex-col">
-                    <div class="inline-flex font-semibold text-3xl mb-10">
-                        Pilihan Ruangan
-                    </div>
-                    <div class="flex border border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg">
-                        <img src="{{asset('img/contoh1.png')}}" alt="">
-                        <div class="flex flex-col">
-                            <h2 class="text-xl font-semibold">Melawai Room</h2>
-                            <div class="inline-flex gap-x-3 mt-2">
-                                <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Maks. 8 Orang
+
+                <div class="w-3/8 " id="maps">
+                    <p class="text-center text-3xl font-semibold">Temukan Lokasi Tempat di <span class="text-orange-500">Maps</span></p>
+
+                    <div class="w-full h-[500px] border border-gray-200 shadow-xl rounded-xl mt-5 p-5">
+
+                        <div class="w-full h-[250px]" id="peta">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2027677.9212814716!2d105.19650925625!3d-6.972890399999993!2m3!1f0!2f0!3f0!3m2!1i104!2i768!4f13.1!3m3!1m2!1s0x2e68e969bc54be89%3A0x2cde296cfcd5b037!2sDiagram%20Coffee%20%26%20Space!5e0!3m2!1sen!2sid!4v1745821243003!5m2!1sen!2sid" width="100%" height="100%" style="border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="flex flex-col items-start" id="fasilitas">
+                                <h2 class="text-2xl font-semibold mt-5">Fasilitas Lokasi</h2>
+                                <ul class="text-sm font-medium items-start list-disc flex flex-col ml-5 gap-y-1 mt-1">
+                                    <li>Parkir Mobil</li>
+                                    <li>Parkir Motor</li>
+                                    <li>Keamanan 24 Jam</li>
+                                    <li>Rak Helm</li>
+                                </ul>
+
+                                <div class="w-full h-full text-center text-[15px] text-white bg-[#363062] p-2 rounded-xl mt-5">
+                                    Buka Maps
                                 </div>
-                                <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Non Smoking
-                                </div>
+
                             </div>
+                        </div>
 
-                            <h2 class="text-orange-500 mt-2 font-semibold">Mulai Dari</h2>
-                            <h2 class="font-semibold text-lg">Rp. 90.000 / 2 jam</h2>
+                    </div>
+
+                    <h1 class="mt-10 text-[27px] font-bold mb-3">Hubungi Sekarang</h1>
+
+                    <div class="flex flex-col border border-gray-200 w-full text-start py-5 px-8 rounded-xl shadow-xl">
+                        <div class="inline-flex justify-between">
+                            <div class="flex flex-col text-sm">
+                                <h1 class="font-semibold text-2xl">Kontak WhatsApp</h1>
+                                <h3 class="text-xl">Hubungi via <span class="text-green-400 font-bold">WhatsApp</span></h3>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="{{asset("img/phone.png")}}" alt="" class="mr-10">
+                            </div>
+                        </div>
+                        <div class="w-full h-full text-center text-[15px] text-white bg-[#00C652] p-2 rounded-xl mt-8">
+                            Chat WhatsApp
                         </div>
                     </div>
 
-                    <div class="flex border border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
-                        <img src="{{asset('img/contoh1.png')}}" alt="">
-                        <div class="flex flex-col">
-                            <h2 class="text-xl font-semibold">Melawai Room</h2>
-                            <div class="inline-flex gap-x-3 mt-2">
-                                <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Maks. 8 Orang
-                                </div>
-                                <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Non Smoking
-                                </div>
-                            </div>
+                    <h1 class="mt-10 text-[27px] font-bold mb-3">Social Media</h1>
 
-                            <h2 class="text-orange-500 mt-2 font-semibold">Mulai Dari</h2>
-                            <h2 class="font-semibold text-lg">Rp. 90.000 / 2 jam</h2>
-                        </div>
+                    <div class="w-full p-5 flex flex-col border rounded-xl shadow-xl bg-white border-gray-200 gap-y-2">
+                        <h1 class="text-[17px]"><span class="font-semibold">Instagram : </span> @voffice_bdg</h1>
+                        <h1 class="text-[17px]"><span class="font-semibold">TikTok : </span> @voffice_bdg</h1>
                     </div>
 
-                    <div class="flex border border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
-                        <img src="{{asset('img/contoh1.png')}}" alt="">
-                        <div class="flex flex-col">
-                            <h2 class="text-xl font-semibold">Melawai Room</h2>
-                            <div class="inline-flex gap-x-3 mt-2">
-                                <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Maks. 8 Orang
-                                </div>
-                                <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Non Smoking
-                                </div>
-                            </div>
-
-                            <h2 class="text-orange-500 mt-2 font-semibold">Mulai Dari</h2>
-                            <h2 class="font-semibold text-lg">Rp. 90.000 / 2 jam</h2>
-                        </div>
-                    </div>
-                </section>
-
-                {{-- Pilihan Meja --}}
-                <section class=" mt-10 flex flex-col">
-                    <div class="inline-flex font-semibold text-3xl mb-10">
-                        Pilihan Meja
-                    </div>
-                    {{-- Meja --}}
-                    <div class="flex border border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg">
-                        <img src="{{asset('img/contoh1.png')}}" alt="">
-                        <div class="flex flex-col">
-                            <h2 class="text-xl font-semibold">Melawai Room</h2>
-                            <div class="inline-flex gap-x-3 mt-2">
-                                <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
-                                    3 - 5 Orang
-                                </div>
-                                <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Outdoor
-                                </div>
-                            </div>
-
-                            <h2 class="text-orange-500 mt-2 font-semibold">Minimal Order</h2>
-                            <h2 class="font-semibold text-lg">Rp. 100.000 / 2 jam</h2>
-                        </div>
-                    </div>
-
-                                        {{-- Meja --}}
-                                        <div class="flex border border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg">
-                                            <img src="{{asset('img/contoh1.png')}}" alt="">
-                                            <div class="flex flex-col">
-                                                <h2 class="text-xl font-semibold">Melawai Room</h2>
-                                                <div class="inline-flex gap-x-3 mt-2">
-                                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
-                                                        3 - 5 Orang
-                                                    </div>
-                                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
-                                                        Outdoor
-                                                    </div>
-                                                </div>
-
-                                                <h2 class="text-orange-500 mt-2 font-semibold">Minimal Order</h2>
-                                                <h2 class="font-semibold text-lg">Rp. 100.000 / 2 jam</h2>
-                                            </div>
-                                        </div>
-
-                                                            {{-- Meja --}}
-                    <div class="flex border border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg">
-                        <img src="{{asset('img/contoh1.png')}}" alt="">
-                        <div class="flex flex-col">
-                            <h2 class="text-xl font-semibold">Melawai Room</h2>
-                            <div class="inline-flex gap-x-3 mt-2">
-                                <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
-                                    3 - 5 Orang
-                                </div>
-                                <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
-                                    Outdoor
-                                </div>
-                            </div>
-
-                            <h2 class="text-orange-500 mt-2 font-semibold">Minimal Order</h2>
-                            <h2 class="font-semibold text-lg">Rp. 100.000 / 2 jam</h2>
-                        </div>
-                    </div>
-                </section>
-
-
+                </div>
             </div>
 
-            <div class="w-3/8 text-center text-xl font-semibold" id="maps">
-                Temukan Lokasi Tempat di <span class="text-orange-500">Maps</span>
-            </div>
+            {{-- Rekomendasi --}}
+            <section class="mt-10 flex flex-col mb-[150px]">
+
+                <div class="inline-flex font-semibold text-3xl mb-10">
+                    Rekomendasi Tempat Lainnya
+                </div>
+
+                <div class="inline-flex gap-x-8">
+
+                    <div class="border border-gray-200 h-full rounded-xl w-[350px] py-5 px-3 flex flex-col shadow-xl">
+                        <img src="{{asset("img/contoh1.png")}}" alt="">
+                        <h1 class="mt-2 text-lg font-semibold">PointLab - Private Team/Individual Room</h1>
+
+                        <div class="inline-flex">
+                            <img src="" alt="">
+                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                        </div>
+
+                        <div class="inline-flex">
+                            <img src="" alt="">
+                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                        </div>
+
+                        <div class="w-full rounded-lg text-center text-white mt-5 bg-blue-500 py-2 px-7">
+                            Detail
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 h-full rounded-xl w-[350px] py-5 px-3 flex flex-col shadow-xl">
+                        <img src="{{asset("img/contoh1.png")}}" alt="">
+                        <h1 class="mt-2 text-lg font-semibold">PointLab - Private Team/Individual Room</h1>
+
+                        <div class="inline-flex">
+                            <img src="" alt="">
+                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                        </div>
+
+                        <div class="inline-flex">
+                            <img src="" alt="">
+                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                        </div>
+
+                        <div class="w-full rounded-lg text-center text-white mt-5 bg-blue-500 py-2 px-7">
+                            Detail
+                        </div>
+                    </div>
+
+                    <div class="border border-gray-200 h-full rounded-xl w-[350px] py-5 px-3 flex flex-col shadow-xl">
+                        <img src="{{asset("img/contoh1.png")}}" alt="">
+                        <h1 class="mt-2 text-lg font-semibold">PointLab - Private Team/Individual Room</h1>
+
+                        <div class="inline-flex">
+                            <img src="" alt="">
+                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                        </div>
+
+                        <div class="inline-flex">
+                            <img src="" alt="">
+                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                        </div>
+
+                        <div class="w-full rounded-lg text-center text-white mt-5 bg-blue-500 py-2 px-7">
+                            Detail
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
         </section>
 
+    </div>
 
+    <div class="w-full h-[1.5px] bg-[#2F327D]"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="w-full h-[300px]">
 
     </div>
 
