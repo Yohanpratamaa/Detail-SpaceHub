@@ -413,8 +413,10 @@
 
     <div class="w-full h-[1.5px] bg-[#2F327D]"></div>
 
-    <div class="w-full h-[300px]">
-
+    <div class="flex w-full h-[250px] px-[150px]">
+        <div class="mt-10">
+            <img src="{{asset("img/logo.png")}}" alt="" class="w-[150px]">
+        </div>
     </div>
 
 </body>
