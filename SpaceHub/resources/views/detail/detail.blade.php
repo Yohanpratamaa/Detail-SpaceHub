@@ -154,7 +154,10 @@
                     {{-- Pilihan Ruangan --}}
                     <section class=" mt-10 flex flex-col">
 
-                        <div class="inline-flex font-semibold text-3xl mb-10">
+                        <div class="inline-flex gap-x-4 font-semibold text-3xl mb-10">
+                            <div>
+                                <img src="{{asset('img/Room.png')}}" alt="">
+                            </div>
                             Pilihan Ruangan
                         </div>
 
@@ -164,10 +167,10 @@
                             <div class="flex flex-col">
                                 <h2 class="text-xl font-semibold">Melawai Room</h2>
                                 <div class="inline-flex gap-x-3 mt-2">
-                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#6DC993] rounded-xl text-sm text-white px-2 py-1">
                                         Maks. 8 Orang
                                     </div>
-                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#F67474] rounded-xl text-sm text-white px-2 py-1">
                                         Non Smoking
                                     </div>
                                 </div>
@@ -178,15 +181,15 @@
                         </div>
 
                         {{-- Ruangan --}}
-                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                        <div class="flex border border-gray-200 bg-white gap-x-10 rounded-xl p-2 shadow-lg mt-8">
                             <img src="{{asset('img/contoh1.png')}}" alt="">
                             <div class="flex flex-col">
                                 <h2 class="text-xl font-semibold">Melawai Room</h2>
                                 <div class="inline-flex gap-x-3 mt-2">
-                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#6DC993] rounded-xl text-sm text-white px-2 py-1">
                                         Maks. 8 Orang
                                     </div>
-                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#F67474] rounded-xl text-sm text-white px-2 py-1">
                                         Non Smoking
                                     </div>
                                 </div>
@@ -197,15 +200,15 @@
                         </div>
 
                         {{-- Ruangan --}}
-                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                        <div class="flex border border-gray-200 bg-white gap-x-10 rounded-xl p-2 shadow-lg mt-8">
                             <img src="{{asset('img/contoh1.png')}}" alt="">
                             <div class="flex flex-col">
                                 <h2 class="text-xl font-semibold">Melawai Room</h2>
                                 <div class="inline-flex gap-x-3 mt-2">
-                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#6DC993] rounded-xl text-sm text-white px-2 py-1">
                                         Maks. 8 Orang
                                     </div>
-                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#F67474] rounded-xl text-sm text-white px-2 py-1">
                                         Non Smoking
                                     </div>
                                 </div>
@@ -220,20 +223,23 @@
                     {{-- Pilihan Meja --}}
                     <section class=" mt-10 flex flex-col">
 
-                        <div class="inline-flex font-semibold text-3xl mb-5">
+                        <div class="inline-flex font-semibold gap-x-4 text-3xl mb-5">
+                            <div>
+                                <img src="{{asset('img/Table.png')}}" alt="">
+                            </div>
                             Pilihan Meja
                         </div>
 
                         {{-- Meja --}}
-                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg mt-8">
+                        <div class="flex border bg-white border-gray-200 gap-x-10 rounded-xl p-2 shadow-lg">
                             <img src="{{asset('img/contoh1.png')}}" alt="">
                             <div class="flex flex-col">
                                 <h2 class="text-xl font-semibold">Melawai Room</h2>
                                 <div class="inline-flex gap-x-3 mt-2">
-                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#6DC993] rounded-xl text-sm text-white px-2 py-1">
                                         3 - 5 Orang
                                     </div>
-                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#F67474] rounded-xl text-sm text-white px-2 py-1">
                                         Outdoor
                                     </div>
                                 </div>
@@ -249,10 +255,10 @@
                             <div class="flex flex-col">
                                 <h2 class="text-xl font-semibold">Melawai Room</h2>
                                 <div class="inline-flex gap-x-3 mt-2">
-                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#6DC993] rounded-xl text-sm text-white px-2 py-1">
                                         3 - 5 Orang
                                     </div>
-                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#F67474] rounded-xl text-sm text-white px-2 py-1">
                                         Outdoor
                                     </div>
                                 </div>
@@ -268,10 +274,10 @@
                             <div class="flex flex-col">
                                 <h2 class="text-xl font-semibold">Melawai Room</h2>
                                 <div class="inline-flex gap-x-3 mt-2">
-                                    <div class="bg-green-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#6DC993] rounded-xl text-sm text-white px-2 py-1">
                                         3 - 5 Orang
                                     </div>
-                                    <div class="bg-red-300 rounded-xl text-sm text-white px-2 py-1">
+                                    <div class="bg-[#F67474] rounded-xl text-sm text-white px-2 py-1">
                                         Outdoor
                                     </div>
                                 </div>
@@ -301,9 +307,9 @@
                                     <li>Rak Helm</li>
                                 </ul>
 
-                                <div class="w-full h-full text-center text-[15px] text-white bg-[#363062] p-2 rounded-xl mt-5">
+                                <a href="#" class="w-full h-full text-center text-[15px] text-white bg-[#363062] p-2 rounded-xl mt-5 transition ease-in-out hover:-translate-y-1 duration-300">
                                     Buka Maps
-                                </div>
+                                </a>
 
                             </div>
                         </div>
@@ -346,59 +352,77 @@
 
                 <div class="inline-flex gap-x-8">
 
+                    {{-- Rekomendasi --}}
                     <div class="border border-gray-200 h-full rounded-xl w-[350px] py-5 px-3 flex flex-col shadow-xl">
                         <img src="{{asset("img/contoh1.png")}}" alt="">
                         <h1 class="mt-2 text-lg font-semibold">PointLab - Private Team/Individual Room</h1>
 
                         <div class="inline-flex">
-                            <img src="" alt="">
+                            <div class="mr-2 mt-[2px]">
+
+                                <img src="{{asset("img/GrayMap.png")}}" alt="">
+                            </div>
                             <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
                         </div>
 
                         <div class="inline-flex">
-                            <img src="" alt="">
-                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                            <div class="mr-2 mt-[4px]">
+                                <img src="{{asset("img/GrayJam.png")}}" alt="">
+                            </div>
+                            <p class="text-gray-400">08.00 - 22.00</p>
                         </div>
 
-                        <div class="w-full rounded-lg text-center text-white mt-5 bg-blue-500 py-2 px-7">
+                        <div class="w-full rounded-lg text-center text-white mt-5 bg-[#4C6FFF] py-2 px-7">
                             Detail
                         </div>
                     </div>
 
+                    {{-- Rekomendasi --}}
                     <div class="border border-gray-200 h-full rounded-xl w-[350px] py-5 px-3 flex flex-col shadow-xl">
                         <img src="{{asset("img/contoh1.png")}}" alt="">
                         <h1 class="mt-2 text-lg font-semibold">PointLab - Private Team/Individual Room</h1>
 
                         <div class="inline-flex">
-                            <img src="" alt="">
+                            <div class="mr-2 mt-[2px]">
+
+                                <img src="{{asset("img/GrayMap.png")}}" alt="">
+                            </div>
                             <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
                         </div>
 
                         <div class="inline-flex">
-                            <img src="" alt="">
-                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                            <div class="mr-2 mt-[4px]">
+                                <img src="{{asset("img/GrayJam.png")}}" alt="">
+                            </div>
+                            <p class="text-gray-400">08.00 - 22.00</p>
                         </div>
 
-                        <div class="w-full rounded-lg text-center text-white mt-5 bg-blue-500 py-2 px-7">
+                        <div class="w-full rounded-lg text-center text-white mt-5 bg-[#4C6FFF] py-2 px-7">
                             Detail
                         </div>
                     </div>
 
+                    {{-- Rekomendasi --}}
                     <div class="border border-gray-200 h-full rounded-xl w-[350px] py-5 px-3 flex flex-col shadow-xl">
                         <img src="{{asset("img/contoh1.png")}}" alt="">
                         <h1 class="mt-2 text-lg font-semibold">PointLab - Private Team/Individual Room</h1>
 
                         <div class="inline-flex">
-                            <img src="" alt="">
+                            <div class="mr-2 mt-[2px]">
+
+                                <img src="{{asset("img/GrayMap.png")}}" alt="">
+                            </div>
                             <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
                         </div>
 
                         <div class="inline-flex">
-                            <img src="" alt="">
-                            <p class="text-gray-400">Jl. Lengkong kecil, Bandung</p>
+                            <div class="mr-2 mt-[4px]">
+                                <img src="{{asset("img/GrayJam.png")}}" alt="">
+                            </div>
+                            <p class="text-gray-400">08.00 - 22.00</p>
                         </div>
 
-                        <div class="w-full rounded-lg text-center text-white mt-5 bg-blue-500 py-2 px-7">
+                        <div class="w-full rounded-lg text-center text-white mt-5 bg-[#4C6FFF] py-2 px-7">
                             Detail
                         </div>
                     </div>
@@ -413,10 +437,35 @@
 
     <div class="w-full h-[1.5px] bg-[#2F327D]"></div>
 
-    <div class="flex w-full h-[250px] px-[150px]">
-        <div class="mt-10">
-            <img src="{{asset("img/logo.png")}}" alt="" class="w-[150px]">
+    <div class="flex flex-col w-full h-[280px] px-[150px] mb-5">
+        <div class="w-full flex">
+            <div class="mt-10">
+                <img src="{{asset("img/logo.png")}}" alt="" class="w-[200px]">
+            </div>
+
+            <div class="flex w-full pl-[600px]">
+                <div>
+                    <h1 class="text-xl font-bold mt-10 mb-3">Kontak Kami</h1>
+                    <ul class="text-gray-600">
+                        <li class="mb-3">spacehub@gmail.com</li>
+                        <li> +62 8883 8883</li>
+                    </ul>
+                </div>
+
+                <div class="ml-[100px]">
+                    <h1 class="text-xl font-bold mt-10 mb-3">Social Media</h1>
+                    <ul class="text-gray-600">
+                        <li class="mb-3">Instagram</li>
+                        <li>Linkedln</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
+        <div class="flex w-full text-center justify-center items-end text-gray-600 h-full text-sm py-2">
+            All rights reserved© 2025 SpaceHub.<br>Menghubungkan Ruang Kerja, Memberdayakan Bisnis
+        </div>
+
     </div>
 
 </body>
